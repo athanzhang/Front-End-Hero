@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5F4E7;
+}
+
+/*header*/
+
+.row.header {
+    width: 500px;
+    height: 240px;
+    background-image: url("images/desktop.jpg");
+    margin: 50px auto 0 auto;
+    opacity: 0.8;
+    background-color: #5C2626;
+    background-blend-mode: overlay;
+}
+
+.row.header .signal {
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.row.header .signal li {
+   
+    border-radius: 50%;
+    background-color: white;    
+    float: left;
+    margin-left: 2px;
+}
+
+.row.header .signal li:nth-of-type(1) {
+    width: 6px;
+    height: 6px;
+}
+.row.header .signal li:nth-of-type(2) {
+    width: 6px;
+    height: 6px;
+}
+.row.header .signal li:nth-of-type(3) {
+    width: 6px;
+    height: 6px;
+}
+
+.row.header .signal li:nth-of-type(4) {
+    width: 4px;
+    height: 4px;
+    background-color: transparent;   
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px white;
+    margin-left: 3px;
+    position: relative;
+    top: 1px;
+    
+}
+.row.header .signal li:nth-of-type(5) {
+    width: 4px;
+    height: 4px;
+    background-color: transparent;   
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px white;
+    margin-left: 4px;
+    position: relative;
+    top: 1px;
+    
+}
+
+.row.header span{
+    position: relative;
+    left: 172px;
+    color: white;
+    top: -8px;
+    
+}
+.row.header  .fa.fa-battery-full {
+    position: relative;
+    float: right;
+    right: 10px;
+    top: 8px;
+    color: white;
+}
+
+.row.header .fa.fa-chevron-left {
+    color: white;
+    font-size: 25px;
+    left: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.row.header .more {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 25px;
+    top: 20px;
+}
+
+.row.header .more li {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+    position:relative;
+    margin-left: 4px;
+}
+.row.header p {
+    color: white;
+    font-size: 2em;
+    position: relative;    
+    top: 130px;
+    left: 20px;
+}
+.row.header .addButton {
+    float: left;
+}
+.row.header .addButton .fa.fa-plus {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 420px;
+    top: 120px;
+    z-index: 2;
+}
+.row.header .addButton span {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    display: inline-block;
+    float: right;
+    position: relative;
+    left: 380px;
+    top: 100px;
+    border-radius: 50%;
+}
+.row.today,.row.tomorrow {
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+}
+.row.today h4,.row.tomorrow h4 {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    color: #BDC3C7;
+}
+.row.today ul,.row.tomorrow ul {
+    list-style: none;
+    margin-top: 20px;
+}
+.row.today li,.row.tomorrow li {
+    overflow: hidden;
+}
+.checkBtn {
+    width: 25px;
+    height: 25px;
+    background-color: #ECF0F1;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 10%;
+    border: solid;
+    border-width: 1px;    
+    border-color:#BDC3C7;
+    
+}
+.row.today .checkBtn,.row.tomorrow .checkBtn {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.row.today img:nth-of-type(1),.row.tomorrow img:nth-of-type(1) {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+.row.today p,.row.tomorrow p {
+    position: relative;
+    left: 160px;
+    
+}
+.row.today p:nth-of-type(1),.row.tomorrow p:nth-of-type(1) {
+    font-size: 1.3em;
+    color:#7D5E3F;
+    top: -30px;
+}
+.row.today p:nth-of-type(2),.row.tomorrow p:nth-of-type(2) {
+    font-size: 1.2em;
+    color: #BDC3C7;
+    top: -40px;
+}
+.row.today img:nth-of-type(2),.row.tomorrow img:nth-of-type(2) {
+    position: relative;
+    float: right;
+    right: 25px;
+    top: -90px;
+}
+.row.today hr,.row.tomorrow hr {
+    position: relative;
+    left: 110px;
+    top: -30px;    
+    height: 1px;
+    background-color: #BDC3C7;
+    
+}
+.row.today li:nth-of-type(2) img:nth-of-type(2){
+    top: -70px;
+}
+.row.tomorrow li p:nth-of-type(1) {
+    top: -20px;
+}
+.row.tomorrow li img:nth-of-type(2) {
+    top: -60px;
+}
+.row.tomorrow li:nth-of-type(3) p {
+    top: 10px;
+    left: 100px;
+    color: #BDC3C7;
+}
+.row.tomorrow li:nth-of-type(3) img {
+    left: 445px;
+    width: 32px;
+    height: 32px;
+    top: -30px;
+}
+
